@@ -1,0 +1,78 @@
+/* Container for the login form */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    width: 100%; /* Full width of the viewport */
+    background-color: #2c3e50; /* Dark greyish-black background */
+}
+
+/* Styles the form within the login container */
+.login-container form {
+    width: 80%; /* Form occupies 80% of the page width */
+    max-width: 500px; /* Ensures the form doesn't get too wide on larger screens */
+    padding: 20px;
+    background-color: #34495e; /* Slightly lighter shade for the form background */
+    border-radius: 10px; /* Rounded corners for the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow around the form */
+}
+
+/* Styles for input fields */
+.login-container form input {
+    width: 100%; /* Full width of the form */
+    padding: 10px;
+    margin-bottom: 20px; /* Adds space between the input fields */
+    border: none;
+    border-radius: 5px; /* Rounded corners for the input fields */
+    box-sizing: border-box; /* Ensures padding doesn't affect the total width */
+}
+
+/* Styles for buttons */
+.login-container form button {
+    width: 100%; /* Full width of the form */
+    padding: 10px;
+    background-color: #74b9ff; /* Sky blue background for buttons */
+    color: white; /* White text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners for the buttons */
+    cursor: pointer;
+    font-size: 16px; /* Larger font size for better readability */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for buttons */
+.login-container form button:hover {
+    background-color: #0984e3; /* A slightly darker shade of blue on hover */
+}
+
+/* Styles for the page heading */
+.Heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px; /* Adjust as needed to position it at the top */
+    font-weight: bold; /* Makes the text bold */
+}
+
+.Heading h1 {
+    font-size: 2.5em; /* Larger font size for the heading */
+    color: #000000; /* Change color if needed */
+}
+
+.Heading p {
+    font-size: 1.2em; /* Slightly larger font size for the paragraph */
+    color: #110d0d; /* Lighter color for the paragraph */
+}
+
+.body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #0f15164f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}

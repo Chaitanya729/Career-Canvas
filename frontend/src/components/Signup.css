@@ -1,0 +1,61 @@
+/* General page styling */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Styling for the signup form */
+.signup-form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Styling for input fields */
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Ensures padding does not affect the total width */
+}
+
+/* Styling for the submit button */
+.signup-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signup-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Additional styling for form headings */
+.signup-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+.header h1{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+
+}

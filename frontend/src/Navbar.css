@@ -1,0 +1,44 @@
+/* Very Good Navbar CSS with Navy Blue Background Theme */
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004175; /* Navy blue background */
+    padding: 10px 20px; /* Padding around the navbar */
+    color: #ffffff; /* White text color */
+}
+
+.navbar_heading {
+    text-align: center;
+    flex-grow: 1; /* Allows the heading to take up necessary space for centering */
+}
+
+.navbar_heading h1 {
+    margin: 0; /* Removes default margin */
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end; /* Aligns links to the right */
+    flex-grow: 2; /* Allows links section to take up more space for spacing */
+}
+
+.links a {
+    color: #ffffff; /* White text color for links */
+    text-decoration: none; /* Removes underline from links */
+    margin-left: 20px; /* Equal spacing between links */
+    padding: 5px 10px; /* Padding inside links for a button-like appearance */
+    border-radius: 5px; /* Rounded corners for links */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.links a:hover {
+    background-color: #002d5a; /* Slightly darker navy blue on hover */
+}
+
+/* Special styling for the Home link to move it to the left */
+.links a:first-child {
+    margin-right: auto; /* Pushes all other links to the right */
+    margin-left: 0; /* Removes left margin specifically for the Home link */
+}

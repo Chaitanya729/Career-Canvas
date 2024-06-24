@@ -1,0 +1,3 @@
+Potential bugs
+1- Email not passed around to all pages
+2- Search tem , type doesn't get checked for

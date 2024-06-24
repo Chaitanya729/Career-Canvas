@@ -1,0 +1,46 @@
+/* Extraordinary CSS for Home Component with Grey Theme */
+
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark grey text for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+/* Homepage container styling */
+.homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #e0e0e0; /* Slightly darker grey background */
+}
+
+/* Centering content */
+center {
+    text-align: center;
+}
+
+/* Styling for headings */
+h1, h2 {
+    color: #212121; /* Even darker grey for text */
+    margin: 0.5em 0; /* Spacing around headings */
+}
+
+/* Styling for the application button */
+.application_link {
+    background-color: #007bff; /* Beautiful blue background */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 16px; /* Slightly larger font size */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.application_link:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

@@ -1,0 +1,86 @@
+/* Global settings for improved readability and aesthetics */
+body {
+    font-family: 'Open Sans', sans-serif; /* Changed to Open Sans for a new look */
+    color: #333; /* Darker text for better contrast */
+    line-height: 1.6; /* Improved line spacing for readability */
+    background-color: #f4f4f4; /* Light background to reduce strain */
+    font-weight: 5000; /* Slightly bolder font for emphasis */
+}
+
+/* Container for each field */
+.field-container {
+    width: 90%; /* No change */
+    margin: 20px auto; /* No change */
+    padding: 15px; /* No change */
+    background-color: #e0e0e0; /* No change */
+    border: 2px solid #666; /* No change */
+    border-radius: 8px; /* No change */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* No change */
+    text-align: center; /* No change */
+}
+
+/* Heading styles for consistency and emphasis */
+h1, h2, h3 {
+    text-align: center; /* No change */
+    font-weight: 600; /* Increase font-weight for bolder headings */
+    font-family: 'Roboto', sans-serif; /* No change */
+}
+/* Style for buttons */
+.button {
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Text color */
+    padding: 10px 15px; /* Padding for a larger clickable area */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for a modern look */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Larger font size for readability */
+    font-weight: bold; /* Bold font for emphasis */
+    font-family: 'Roboto', sans-serif; /* Consistent vibrant font */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker shade on hover for feedback */
+}
+
+/* Input and textarea styling for consistency */
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    width: calc(100% - 40px); /* Adjusted width to account for padding */
+    padding: 10px; /* Comfortable padding inside fields */
+    margin-top: 5px; /* Space above each input field */
+    border: 2px solid #666; /* Darker grey border for better contrast */
+    border-radius: 4px; /* Soft rounded corners */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2); /* Darker inner shadow for depth */
+    font-size: 16px; /* Readable font size */
+    font-family: 'Roboto', sans-serif; /* Consistent vibrant font */
+}
+
+/* Enhance focus state for accessibility */
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, textarea:focus {
+    border-color: #66afe9; /* Highlight color on focus */
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6); /* Glow effect on focus */
+}
+.submit-button {
+    margin-top: 20px; /* Adjust the value as needed */
+}
+
+/* Additional styles for description and profile boxes */
+.description-box, .profile-box {
+    width: 70%; /* Decrease width for a more compact look */
+    margin: auto; /* Center the boxes */
+    font-family: 'Roboto', sans-serif; /* Vibrant font for better readability */
+    background-color: #e0e0e0; /* Slightly darker grey for background */
+}
+
+.apply-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-container {
+    width: 50%;
+}
+
+.pdf-preview {
+    width: 50%;
+}
